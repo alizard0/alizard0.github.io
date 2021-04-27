@@ -1,1 +1,27 @@
 remote_theme: barryclark/jekyll-now
+name: André
+description: I craft software.
+avatar: https://avatars.githubusercontent.com/u/5052647?s=60&v=4
+google_analytics:
+url: "http://alizard0.github.io/"
+baseurl: ""
+permalink: /:title/
+version: v1.2.0
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+sass:
+  style: :expanded
+gems:
+  - jekyll-sitemap 
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
